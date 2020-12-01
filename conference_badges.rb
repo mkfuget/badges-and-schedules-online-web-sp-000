@@ -8,4 +8,8 @@ def batch_badge_creator(names_array)
 end
 
 def assign_rooms(names_array)
-  return names_array.collect_with_index{|x, i| "Hello #"
+  return names_array.collect_with_index{|x, i| "Hello, #{x}! You'll be assigned to room #{i}!"}
+end
+
+def printer
+  
